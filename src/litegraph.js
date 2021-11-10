@@ -5808,7 +5808,6 @@ LGraphNode.prototype.executeAction = function(action)
 
 		if(this.block_click)
 		{
-			console.log("foo");
 			this.block_click = false; //used to avoid sending twice a click in a immediate button
 		}
 
